@@ -31,6 +31,7 @@ function App()
                     <Route exact path="events" element={<Event />} />
                     <Route exact path="collab" element={<Collab/>} />
                     <Route exact path="ExecRecruitments" element={<ExecRecruitment/>} />
+                    {/* <Route exact path="/ExecRecruitments" component={ExecRecruitment} /> */}
                 </Routes>
             </BrowserRouter>
         </>
