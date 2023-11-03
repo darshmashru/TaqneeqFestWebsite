@@ -27,7 +27,7 @@ function Home()
                         <div className="row h-100">
                             <div className="col-7 my-auto">
                                 <div className="my-2 display-3 fw-bold fade-in-text">Taqneeq</div>
-                                <h1 className="mt-2 display-1 fade-in-text delayed">16.0</h1>
+                                <h1 className="mt-2 display-1 fade-in-text delayed">15.0</h1>
                                 <strong className='fw-bold fade-in-text delayed'>NMIMS' OFFICIAL TECH FEST</strong>
                             </div>
                         </div>
