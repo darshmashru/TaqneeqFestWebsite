@@ -12,6 +12,7 @@ import Schedule from './pages/Schedule';
 import Workshop from './pages/Workshop';
 import Event from './pages/Event';
 import Collab from './pages/collab';
+import ExecRecruitment from './pages/ExecRecruitment'
 
 function App()
 {
@@ -29,7 +30,7 @@ function App()
                     <Route exact path="workshops" element={<Workshop />} />
                     <Route exact path="events" element={<Event />} />
                     <Route exact path="collab" element={<Collab/>} />
-
+                    <Route exact path="ExecRecruitments" element={<ExecRecruitment/>} />
                 </Routes>
             </BrowserRouter>
         </>
