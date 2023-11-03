@@ -11,6 +11,7 @@ export default function Navbar() {
             className="menu-wrap"
             style={{ display: "flex", alignItems: "center" }}
           >
+             <input type="checkbox" className="toggler" />
             <div className="hamburger" style={{ marginRight: "10px" }}>
               <div></div>
             </div>
@@ -18,9 +19,14 @@ export default function Navbar() {
               <div>
                 <div>
                   <ul>
-                    <li>
+                  <li>
                       <a className="fw-bold" href="/">
                         Home
+                      </a>
+                    </li>
+                    <li>
+                      <a className="fw-bold" href="/ExecRecruitments">
+                      Executive Recruitments
                       </a>
                     </li>
                     <li>
@@ -72,7 +78,7 @@ export default function Navbar() {
           <a
             className="navbar-brand"
             href="/"
-            style={{ marginTop: "-25    px" }}
+            style={{ marginTop: "-25px" }}
           >
             <img src={tqlogo} width="50" height="50" alt="" />
           </a>
